@@ -15,7 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{66BB84C9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8BF6AC81-D07B-4AB3-A9AF-3AFC6E7B1FF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveApp.Domain", "HR.LeaveApp.Domain\HR.LeaveApp.Domain.csproj", "{EC0D100A-E61C-4E1D-9F55-A8F2AA53D005}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC0D100A-E61C-4E1D-9F55-A8F2AA53D005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0D100A-E61C-4E1D-9F55-A8F2AA53D005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0D100A-E61C-4E1D-9F55-A8F2AA53D005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0D100A-E61C-4E1D-9F55-A8F2AA53D005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -24,6 +36,7 @@ Global
 		{7B2A0D00-9D68-4613-8F50-7AAB2D6D9B4C} = {3491CFCD-01C3-4284-AFDD-28DB6319A488}
 		{66BB84C9-5244-43B9-95E9-2CE38DEE7CD1} = {3491CFCD-01C3-4284-AFDD-28DB6319A488}
 		{8BF6AC81-D07B-4AB3-A9AF-3AFC6E7B1FF2} = {3491CFCD-01C3-4284-AFDD-28DB6319A488}
+		{EC0D100A-E61C-4E1D-9F55-A8F2AA53D005} = {7B2A0D00-9D68-4613-8F50-7AAB2D6D9B4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84603CFA-72CF-4076-B582-C1FD64F41788}
